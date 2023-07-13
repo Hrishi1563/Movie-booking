@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        
+    
+    <style>
+         h2 {
+           position: relative;
+           left: 24%;
+            font-size: 5em;
+            font-family: serif;
+            color: transparent;
+            text-align: center;
+            animation: effect 2s linear infinite;
+           
+        }
+ 
+        @keyframes effect {
+            0% {
+                background: linear-gradient(
+                        #de0c0c, #ff0000);
+                -webkit-background-clip: text;
+            }
+ 
+            100% {
+                background: linear-gradient(
+                        #3CE7D7, #000FFF);
+                -webkit-background-clip: text;
+            }
+        }
+
+       img
+       {
+        width: 40%;
+        height: 50%;
+        position: relative;
+        left: 30%;
+
+       }
+        div
+        {
+            
+            position: relative;
+            right: -28%;
+            bottom: 2%;
+           width: 30%;
+           height: 30%;
+           
+        }
+
+        p
+        {
+            position: absolute;
+            top: 58%;
+            left: 47%;
+            color: white;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body style="background-image: url(page/ticket.jpg) ; background-position: no repeat; background-size: cover; ">
+    <div id="hello">
+        
+    <h2 > You Ticket is Booked </h2>
+
+    </div>
+    <img src="images/Green Modern Get Discount Movie Ticket.png" alt="">
+    <p id="name" ></p>
+    <script src="book.js"></script>
+</body>
+</html>

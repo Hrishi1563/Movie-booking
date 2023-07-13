@@ -1,0 +1,151 @@
+body
+{
+    background-color: rgb(14 12 12);
+}
+#header {
+    border: solid 2px red;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+    left: -1 px;
+}
+
+.search {
+    width: 23%;
+    margin-left: 566px
+}
+
+.search input {
+
+    position: relative;
+    left: -496px;
+
+}
+
+.logo img {
+
+    border-radius: 10px;
+}
+
+.signin {
+    border-radius: 10px;
+    position: relative;
+    right: -63px;
+
+}
+
+#slider {
+    margin-top: 6px;
+    background-image: white;
+
+
+}
+
+#slider figure {
+
+    position: relative;
+    left: 0px;
+    width: 500%;
+    animation: 15s slider infinite;
+}
+
+#slider figure img {
+
+    margin-right: 10px;
+    float: left;
+    border-radius: 25px;
+
+}
+
+@keyframes slider {
+    0% {
+        left: 0%;
+    }
+
+    25% {
+        left: -30%;
+    }
+
+     30% {
+        left: -70%;
+    }
+
+    50% {
+        left: -100%;
+    }
+
+    70% {
+        left: -130%;
+    }
+
+    75% {
+        left: -150%;
+    }
+    85%
+    {
+        left: -155%;
+    }
+    100%
+    {
+        left: 0%;
+    }
+
+
+
+
+
+
+}
+
+.movies {
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 28px;
+    background-image: linear-gradient(to right, #ffffff ,#0c0c0c, #d69b2b);
+}
+
+.poster {
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+img 
+{
+  cursor: pointer;
+}
+h3
+{
+vertical-align: auto;
+margin-left: 28px;
+border-radius: 40px;
+width: 406px;
+ font-size: 140%;
+ padding-left: 23px;
+ background-color: white;
+font-family: cursive;
+color: red;
+}
+.sign
+{
+font-weight: 700;
+font-size: 17px;
+height: 30px; 
+background-color: white;
+color: red;
+border-radius: 9px;
+}
+input
+{
+font-size: 15px;
+font-weight: 600;
+}
+#demo
+{
+display: none;
+}
+
+

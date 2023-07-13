@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body
+        {
+            font-weight: 900;
+        }
+        html
+        {
+            background-image: url(images/seat2.jpg) ;
+            background-size: 1600px;
+            background-repeat: none;
+        }
+        table {
+  border-collapse: separate;
+  border-spacing: 30px 30px;
+}
+
+        .seat
+        {
+            text-align: center;
+            width: 40px;
+            margin-right: 100px;
+            border-radius: 6px;
+            border: solid 2px green ;
+            background-color: white;
+        }
+            
+        
+
+        .seat:hover
+        {
+            background-color: rgb(251, 153, 67);
+        }
+
+        #seats
+        {
+            position: absolute;
+            bottom: 81px;
+            right: 329px;
+        }
+        #time
+        {
+
+           
+            margin: auto;
+            display: flex;
+           
+        }
+        .time
+        {
+            padding-top: 22px;
+            margin: auto;
+            width: 60%;
+            height: 40px;
+            margin-right: 4px;
+            background-color: white;
+            color: green;
+            border: solid 2px green;
+            text-align: center;
+
+           
+        }
+        .time:hover
+        { background-color: rgb(251, 153, 67);
+
+
+        }
+        .time:visited
+        {
+            background-color: rgb(251, 153, 67);
+        }
+        
+      
+
+    </style>
+</head>
+
+<body>
+    <div id="time">
+    <div  id="a" class="time"onclick="myHeader1()" >12:00</div>
+    <div  id="b"class="time"onclick="myHeader2()">15:00</div>  
+    <div  id="c"class="time"onclick="myHeader3()">18:00</div> 
+    <div  id="d"class="time"onclick="myHeader4()">22:00</div>     
+    </div>
+
+       
+     <div id="seats">
+        <h3 style=" margin-left: 269px; margin-bottom: 0px;color: white; font-size: 25px;">Select seat of your own choice</h3>
+       <table>
+        
+        <tr>
+            <td style="margin-right: 200px; color: white;">A</td>
+            <a href="booking.html"><td class="seat"  onclick="myFunction()">1</td></a>
+            <a href=""><td class="seat"  onclick="myFunction()">2</td></a>
+            <a href=""><td class="seat"  onclick="myFunction()">3</td></a>
+            <a href=""><td class="seat" onclick="myFunction()">4</td></a>
+            <a href=""><td class="seat"  onclick="myFunction()">5</td></a>
+            <a href=""> <td class="seat" onclick="myFunction()">6</td></a>
+            <a href="">  <td class="seat"onclick="myFunction()">7</td></a>
+            <a href=""> <td class="seat" onclick="myFunction()">8</td></a>
+           <a href=""><td class="seat"   onclick="myFunction()">9</td></a>
+            <a href=""> <td class="seat" onclick="myFunction()">10</td></a>
+        </tr>
+        <tr>
+            <td style="color: white;">B</td>
+            <a href="booking.html"><td class="seat"  onclick="myFunction()">1</td></a>
+            <a href=""><td class="seat"  onclick="myFunction()">2</td></a>
+            <a href=""><td class="seat"  onclick="myFunction()">3</td></a>
+            <a href=""><td class="seat" onclick="myFunction()">4</td></a>
+            <a href=""><td class="seat"  onclick="myFunction()">5</td></a>
+            <a href=""> <td class="seat" onclick="myFunction()">6</td></a>
+            <a href="">  <td class="seat"onclick="myFunction()">7</td></a>
+            <a href=""> <td class="seat" onclick="myFunction()">8</td></a>
+           <a href=""><td class="seat"   onclick="myFunction()">9</td></a>
+            <a href=""> <td class="seat" onclick="myFunction()">10</td></a>
+        </tr>
+        <tr>
+            <td style="color: white;">C</td>
+            <a href="booking.html"><td class="seat"  onclick="myFunction()">1</td></a>
+            <a href=""><td class="seat"  onclick="myFunction()">2</td></a>
+            <a href=""><td class="seat"  onclick="myFunction()">3</td></a>
+            <a href=""><td class="seat" onclick="myFunction()">4</td></a>
+            <a href=""><td class="seat"  onclick="myFunction()">5</td></a>
+            <a href=""> <td class="seat" onclick="myFunction()">6</td></a>
+            <a href="">  <td class="seat"onclick="myFunction()">7</td></a>
+            <a href=""> <td class="seat" onclick="myFunction()">8</td></a>
+           <a href=""><td class="seat"   onclick="myFunction()">9</td></a>
+            <a href=""> <td class="seat" onclick="myFunction()">10</td></a>
+        </tr>
+        <tr>
+            <td style="color: white;">D</td>
+            <a href="booking.html"><td class="seat"  onclick="myFunction()">1</td></a>
+            <a href=""><td class="seat"  onclick="myFunction()">2</td></a>
+            <a href=""><td class="seat"  onclick="myFunction()">3</td></a>
+            <a href=""><td class="seat" onclick="myFunction()">4</td></a>
+            <a href=""><td class="seat"  onclick="myFunction()">5</td></a>
+            <a href=""> <td class="seat" onclick="myFunction()">6</td></a>
+            <a href="">  <td class="seat"onclick="myFunction()">7</td></a>
+            <a href=""> <td class="seat" onclick="myFunction()">8</td></a>
+           <a href=""><td class="seat"   onclick="myFunction()">9</td></a>
+            <a href=""> <td class="seat" onclick="myFunction()">10</td></a>
+        </tr>
+        <tr>
+            <td style="color: white;">E</td>
+            <a href="booking.html"><td class="seat"  onclick="myFunction()">1</td></a>
+            <a href=""><td class="seat"  onclick="myFunction()">2</td></a>
+            <a href=""><td class="seat"  onclick="myFunction()">3</td></a>
+            <a href=""><td class="seat" onclick="myFunction()">4</td></a>
+            <a href=""><td class="seat"  onclick="myFunction()">5</td></a>
+            <a href=""> <td class="seat" onclick="myFunction()">6</td></a>
+            <a href="">  <td class="seat"onclick="myFunction()">7</td></a>
+            <a href=""> <td class="seat" onclick="myFunction()">8</td></a>
+           <a href=""><td class="seat"   onclick="myFunction()">9</td></a>
+            <a href=""> <td class="seat" onclick="myFunction()">10</td></a>
+        </tr>
+        <tr>
+            <td style="color: white;">F</td>
+            <a href="booking.html"><td class="seat"  onclick="myFunction()">1</td></a>
+            <a href=""><td class="seat"  onclick="myFunction()">2</td></a>
+            <a href=""><td class="seat"  onclick="myFunction()">3</td></a>
+            <a href=""><td class="seat" onclick="myFunction()">4</td></a>
+            <a href=""><td class="seat"  onclick="myFunction()">5</td></a>
+            <a href=""> <td class="seat" onclick="myFunction()">6</td></a>
+            <a href="">  <td class="seat"onclick="myFunction()">7</td></a>
+            <a href=""> <td class="seat" onclick="myFunction()">8</td></a>
+           <a href=""><td class="seat"   onclick="myFunction()">9</td></a>
+            <a href=""> <td class="seat" onclick="myFunction()">10</td></a>
+        </tr>
+
+     </table>
+     </div>
+     <script>
+        function myFunction()
+        {
+            location.replace("Final.html")
+        }
+      
+        function myHeader1()
+        { 
+            let a=document.getElementById('a')
+            let b=document.getElementById('b')
+            let c=document.getElementById('c')
+            let d=document.getElementById('d')
+            a.style.backgroundColor= "rgb(251, 153, 67)"
+            b.style.backgroundColor="White"
+            c.style.backgroundColor="White"
+            d.style.backgroundColor="white"
+       }
+       
+       function myHeader2()
+        { 
+            let a=document.getElementById('a')
+            let b=document.getElementById('b')
+            let c=document.getElementById('c')
+            let d=document.getElementById('d')
+            b.style.backgroundColor= "rgb(251, 153, 67)"
+            a.style.backgroundColor="White"
+            c.style.backgroundColor="White"
+            d.style.backgroundColor="White"
+       }
+       function myHeader3()
+        { 
+            let a=document.getElementById('a')
+            let b=document.getElementById('b')
+            let c=document.getElementById('c')
+            let d=document.getElementById('d')
+            c.style.backgroundColor= "rgb(251, 153, 67)"
+            b.style.backgroundColor="White"
+            a.style.backgroundColor="White"
+            d.style.backgroundColor="White"
+       }
+       function myHeader4()
+        { 
+            let a=document.getElementById('a')
+            let b=document.getElementById('b')
+            let c=document.getElementById('c')
+            let d=document.getElementById('d')
+            d.style.backgroundColor= "rgb(251, 153, 67)"
+            b.style.backgroundColor="White"
+            c.style.backgroundColor="White"
+            a.style.backgroundColor="White"
+       }
+        
+     </script>
+
+</body>
+</html>

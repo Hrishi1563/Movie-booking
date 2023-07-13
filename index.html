@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="logo"><img src="images/logo.png" alt="" height="100px" width="100px"></div>
+        <div class="search"><input type="text" value="Search for movies , events and shows" value="Search" size="100px"  style="height: 30px; border-radius: 10px;">
+        </div>
+        <div style="margin-left: 20px; position: relative; right: -4%;"><img id="demo" src="icons/images.png"  width="30px" height="30px"></div>
+        <div class="signin"><button  id="abc" class="sign" onclick="myFunction()" >Sign in</button></div>
+
+
+
+    </div>
+    <div id="slider">
+
+        <figure>
+           <a href="booking.html"> <img src="images/slider1.jpg" width="800px" height="300px" alt="" style="margin-left: 10px;"></a>
+            <a href="booking2.html"><img src="images/slider 5.jpg" width="800px" height="300px" alt=""></a>
+            <a href="booking1.html"><img src="images/slider 3.jpg" width="800px" height="300px" alt=""></a>
+           <a href="booking3.html"> <img src="images/slider3.jpg" width="800px" height="300px" alt=""></a>
+           <a href="booking3.html"> <img src="images/thor.png" width="500px" height="300px" alt=""></a>
+            
+        </figure>
+    </div>
+
+    <h3  style="margin-right: 0px; margin-top: 338px;"><img src="icons/play.png" alt="" width="30px" height="30px"> Movies Playing at VR MALL</h3>
+    <div class="movies">
+        <div class="poster" style="margin-left: 50px;"><a href="booking.html"> <img src="images/slider1.jpg" alt="" width="222.04 px "
+                height="300.08 px" style="border-radius: 10px;"> </a></div>
+        <div class="poster"> <a href="booking2.html"><img src="images/slider 5.jpg" alt="" width="222.04 px " height="300.08 px"
+                style="border-radius: 10px;"> </a></div>
+        <div class="poster"> <a href="booking1.html"><img src="images/slider 3.jpg" alt="" width="222.04 px " height="300.08 px"
+                style="border-radius: 10px;"></a> </div>
+                <div class="poster"> <a href="booking3.html"><img src="images/slider3.jpg" alt="" width="222.04 px " height="300.08 px"
+                    style="border-radius: 10px;"></a> </div>
+                    <div class="poster"> <a href="Thor.html"><img src="images/thor.png" alt="" width="222.04 px " height="300.08 px"
+                        style="border-radius: 10px;"></a> </div>
+    </div>
+    <h3><img src="icons/play.png" alt="" width="30px" height="30px"> Movies Playing at Raj Hans Mall </h3>
+    <div class="movies">
+        <div class="poster" style="margin-left: 50px;"><a href="booking.html"> <img src="images/slider1.jpg" alt="" width="222.04 px "
+                height="300.08 px" style="border-radius: 10px;"> </a></div>
+        <div class="poster"><a href="booking2.html"> <img src="images/slider 5.jpg" alt="" width="222.04 px " height="300.08 px"
+                style="border-radius: 10px;"> </a></div>
+        <div class="poster"><a href="booking1.html"> <img src="images/slider 3.jpg" alt="" width="222.04 px " height="300.08 px"
+                style="border-radius: 10px;"> </a></div>
+                <div class="poster"> <a href="booking3.html"><img src="images/slider3.jpg" alt="" width="222.04 px " height="300.08 px"
+                    style="border-radius: 10px;"></a> </div>
+                    <div class="poster"> <a href="Thor.html"><img src="images/thor.png" alt="" width="222.04 px " height="300.08 px"
+                        style="border-radius: 10px;"></a> </div>
+    </div>
+    <script>
+        function myFunction() {
+  let person = prompt("Please enter your email-id to login", "")
+  console.log(person)
+  if (person != null) {
+    document.getElementById("demo").style.display="block";
+    let a=person.indexOf('@')
+    document.getElementById("abc").textContent="Hello, " + person.substring(0,a);
+  }
+}
+    </script>
+</body>
+
+</html>
